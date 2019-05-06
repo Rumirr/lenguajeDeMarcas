@@ -1,0 +1,34 @@
+.cuadrado {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#primero {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#segundo {
+  background-color: yellow;
+  position: fixed;
+  top: 40px;
+  left: 70px;
+}
+
+#tercero {
+  background-color: green;
+  position: fixed;
+  top: 80px;
+  left: 140px;
+}
+
+#cuarto {
+  background-color: red;
+  position: fixed;
+top: 120px;
+  left: 210px;
+}

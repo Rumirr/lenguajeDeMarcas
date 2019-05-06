@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!ELEMENT lista_personas (persona*)>
+<!ELEMENT persona (nombre, fecha_nacimiento, sexo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!ELEMENT arrel (fill, fill2, fill2, branca)>
+<!ELEMENT fill (#PCDATA)>
+<!ELEMENT fill2 (#PCDATA)>
+<!ELEMENT branca (fill, fill, fill)>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<marcadores>
+    <marcador>
+        <titulo>Buscador Google</titulo>
+        <enlace>Google</enlace>
+        <destino>http://www.google.es</destino>
+    </marcador>
+    <marcador>
+        <titulo>IES Son Ferrer</titulo>
+        <enlace>IES Son Ferrer</enlace>
+        <destino>http://www.iessonferrer.net</destino>
+        <nuevaVentana/>
+    </marcador>
+</marcadores>
+
+

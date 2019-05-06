@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE workers SYSTEM 'ID.dtd'>
+
+<workers>
+    <worker id="b1" isBoss="y"/>
+    <worker id="b2" isBoss="y" idBoss="b1"/>
+    <worker id="w1" isBoss="n" idBoss="b1 b2"/>
+    <worker id="w2" isBoss="n" idBoss="b2"/>
+    <worker id="w3" isBoss="n" idBoss="b2"/>
+</workers>

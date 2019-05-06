@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+body{
+    font-family: 'Source Serif Pro', serif;
+    overflow-x: hidden;
+}
+
+
+.verde{
+    color: #0e9d0b;
+}
+.amarillo{
+    color: #ccca00;
+}
+.naranja{
+    color: #ec5e00;
+}
+.rojo{
+    color: #e10000;
+}
+.badge{
+    font-size: 20px;
+}
+.badge-primary{
+    font-size: calc(1vw + 2rem);
+    margin-bottom: 2rem;
+}
+.card{
+    max-width: 300px;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+.img-thumbnail{
+    border-color: rgba(104,104,104,0.57);
+}
+.bigImg{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+    max-width: 1280px;
+    height: auto;
+}
+
+ul.list-group-striped li:nth-of-type(even){
+    background-color: rgba(9,99,73,0.05);    
+}
+@media (max-width: 470px) { 
+    body{
+        font-size: 15px !important;
+
+    }
+    .badge{
+        font-size: 15px;
+    }
+    .badge-primary{
+        font-size: 20px !important;
+    }
+    .table th, .table td{
+        font-size: 15px;
+        padding: 0.1rem;
+    }
+    .bigImg{
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}
+@media (min-width: 768px) {
+    .card{
+        max-width: 500px;
+    }
+}

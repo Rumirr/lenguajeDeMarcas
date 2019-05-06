@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <!--
+nombre usuario
+password
+repetir password
+email
+fecha nacimiento
+premium si|no
+submit & clear
+ -->
+
+  <form>
+      <label for="usuario">Nombre de usuario:</label><br>
+      <input type="text" name="usuario" placeholder="Usuario" required><br><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" name="password" placeholder="Password" required><br><br>
+
+      <label for="repassword">Repetir password:</label><br>
+      <input type="password" name="repassword" placeholder="Repetir password" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" placeholder="Email" required><br><br>
+
+      <label for="nacimiento">Fecha de nacimiento:</label><br>
+      <input type="date" name="nacimiento"><br><br>
+
+      <label for="premium">Premium</label>
+      <input type="radio" name="premium" value="Si">Si
+      <input type="radio" name="premium" value="No" checked>No<br><br>
+
+      <button type="submit" name="enviar">Enviar</button>
+      <button type="reset" name="borrar">Limpiar formulario</button>
+  </form>
+</body>
+
+</html>

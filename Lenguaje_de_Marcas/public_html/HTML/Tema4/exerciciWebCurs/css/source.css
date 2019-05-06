@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: grey;
+}
+body>*{
+
+  padding-bottom: 25px;
+
+}
+body {
+  padding: 0 25px 25px 25px;
+  background-color: white;
+  width: 85%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.52);
+}
+
+/**********************************
+**************|NAV / BANNER|*******
+***********************************/
+.banner {
+  background-color: rgb(240, 240, 240);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(210, 210, 210);
+  overflow: hidden;
+}
+
+.nav>ul>li {
+  float: left;
+  padding: 10px 15px 10px 0px;
+}
+
+.nav>ul>li>a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav>ul>li>a:hover:not(.active) {
+  font-weight: bold;
+}
+
+/**********************************
+**************|MAIN|***************
+***********************************/
+.main {
+  padding-top: 25px;
+}
+
+.article {
+  float: left;
+  padding-bottom: 25px;
+  width: 60%;
+}
+
+.article>h2 {
+  padding-bottom: 15px;
+}
+
+.article>img {
+  border-radius: 10px;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.article>p {
+  text-align: left;
+}
+
+/*******************navLateral***********************/
+.navLateral {
+  border: 1px solid black;
+  float: right;
+  width: 150px;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  clear: right;
+}
+
+.navLateral:last-of-type {
+  margin-bottom: 0;
+}
+
+.navLateral>h3 {
+  padding-bottom: 15px;
+}
+
+.navLateral>ul {
+  list-style-type: square;
+}
+
+.navLateral>ul>li>a {
+  color: #000;
+}
+
+.navLateral>ul>li>a:visited, .navLateral>a:visited {
+  color: #000;
+}
+
+.navLateral>a {
+  color: #000;
+  text-decoration: none;
+  background-color: rgb(210, 210, 210);
+  display: inline-block;
+  padding: 5px 7px;
+  margin-top: 10px;
+  border-radius: 20px
+}
+
+/**********************************
+**********|programOverview|********
+***********************************/
+.programOverview {
+  clear: both;
+  border-bottom: 2px dotted rgb(209, 209, 209);
+  padding-bottom: 206px;
+  border-top: 2px dotted rgb(209, 209, 209);
+  padding-top: 25px;
+}
+
+.programOverview>h2 {
+  padding-bottom: 20px;
+}
+
+.item {
+  width: 100%;
+  padding-top: 25px;
+  clear: both;
+}
+
+.date {
+  width: 15%;
+  float: left;
+}
+
+.description {
+  float: left;
+  width: 60%;
+  margin-left: 50px;
+}
+
+.description>h3 {
+  text-decoration: underline;
+}
+
+/**********************************
+**************|FOOTER|*************
+***********************************/
+.footer {
+  border-top: 2px solid rgb(209, 209, 209);
+  padding-top: 20px;
+  margin-top: 15px;
+  position: relative;
+  bottom: 0;
+  clear: both;
+}
+
+.footer>a {
+  color: black;
+}

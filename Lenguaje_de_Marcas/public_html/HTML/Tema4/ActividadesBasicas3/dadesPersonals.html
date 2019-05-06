@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Datos Básicos</legend>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" required>
+
+      <br><br>
+
+      <label for="apellido">Apellidos:</label>
+      <input type="text" name="apellido" required>
+
+      <br><br>
+      <label for="telefono1">Teléfono 1:</label>
+      <input type="tel" name="telefono1" required pattern="[0-9]{9}}">
+      <label for="telefono2">Teléfono 2:</label>
+      <input type="tel" name="telefono2" pattern="[0-9]{9}}">
+
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Otros Datos</legend>
+
+      <label for="fechaNacimiento">Fecha de nacimiento:</label>
+      <input type="date" name="fechaNacimiento">
+
+      <br><br>
+
+      <label for="sexo">Sexo:</label>
+      <input type="radio" name="sexo" value="hombre">Hombre
+      <input type="radio" name="sexo" value="mujer">Mujer
+      <input type="radio" name="sexo" value="soyRetrasado" checked>Soy retrasado y pienso que existe más de dos
+
+      <br><br>
+
+      <label for="isla">Selecciona una isla:</label>
+      <select name="isla">
+        <option value="mallorca">Mallorca</option>
+        <option value="menorca">Menorca</option>
+        <option value="ibiza">Ibiza</option>
+      </select>
+
+      <br><br>
+      <label for="pueblo">Pueblo:</label>
+      <input type="text" name="pueblo">
+
+      <br><br>
+      <label for="calle">Calle:</label>
+      <input type="text" name="calle">
+
+      <br><br>
+      <label for="codigoPostal">Código postal:</label>
+      <input type="number" name="codigoPostal">
+
+      <br><br>
+      <label for="descripcion">Descripción del problema:</label><br>
+      <textarea name="Descripción" rows="4" cols="50"></textarea>
+    </fieldset>
+  </form>
+</body>
+
+</html>

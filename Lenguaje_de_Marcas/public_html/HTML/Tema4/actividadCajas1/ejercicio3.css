@@ -1,0 +1,30 @@
+.cuadrado {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.primero {
+  background-color: blue;
+}
+
+.segundo {
+  background-color: yellow;
+
+}
+
+.tercero {
+  background-color: green;
+
+}
+
+.cuarto {
+  background-color: red;
+}
+.izquierda{
+  float: left;
+}
+.derecha{
+  float: right;
+}
